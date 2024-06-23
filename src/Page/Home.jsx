@@ -36,6 +36,13 @@ function driveRedirect(){
                 role='button'>NoN MTG</div>
                 </div>
 
+
+                <div className='col-12 col-md-6 col-lg-3 mt-2'>
+                <div className='bg-primary text-white p-1 fs-5 text-center mt-md-3 mt-xs-3'
+                onClick={()=>redirectToWebsite()}
+                role='button'>TG</div>
+                </div>
+
                 <div className='col-12 col-md-6 col-lg-3 mt-2'>
                 <div className='bg-primary text-white p-1 fs-5 text-center mt-md-3 mt-xs-3'
                 onClick={()=>navigate("/Mtg")}
